@@ -1,0 +1,16 @@
+
+:root{
+  font-family: 'Victor Mono', monospace;
+  text-align: center;
+  color: #dde1e6;
+  background-color: #111111;
+  overflow: hidden;
+
+}
+
+.title {
+  min-height: 100dvh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
