@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../app.css";
-  import "../fonts.css";
   let { children } = $props();
+  import "@fontsource-variable/victor-mono";
 </script>
 
 <div class="app">
