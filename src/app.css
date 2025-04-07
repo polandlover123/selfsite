@@ -1,11 +1,11 @@
 
 :root{
   font-family: 'Victor Mono', monospace;
+  font-style: italic;
   text-align: center;
   color: #dde1e6;
   background-color: #111111;
   overflow: hidden;
-
 }
 
 .title {
