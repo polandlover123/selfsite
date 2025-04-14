@@ -8,5 +8,4 @@
   <main>
     {@render children()}
   </main>
-  <footer></footer>
 </div>

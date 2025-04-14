@@ -1,14 +1,31 @@
 
 :root{
+  min-height: 200dvh;
   font-family: 'Victor Mono', monospace;
   font-style: italic;
+  scroll-snap-type: y mandatory;
   text-align: center;
   color: #dde1e6;
   background-color: #111111;
-  overflow: hidden;
+  overflow:scroll;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  scroll-snap-align: start;
+  min-height: 100dvh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title {
+.about {
+  scroll-snap-align: start;
   min-height: 100dvh;
   display:flex;
   justify-content: center;
