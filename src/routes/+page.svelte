@@ -9,5 +9,6 @@
 <style>
   :root{
     min-height: 200vh;
+    overflow:scroll;
   }
 </style>
