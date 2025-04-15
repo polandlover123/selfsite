@@ -1,6 +1,17 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.hellotitle {
+  animation: fadeIn 2s ease-in-out;
+}
+.yaptitle{
+  animation: fadeIn 2s ease-in-out;
 
+}
 :root{
-  min-height: 200vh;
+  min-height: 300vh;
+  width: 100vw;
   font-family: 'Victor Mono', monospace;
   font-style: italic;
   scroll-snap-type: y mandatory;
@@ -15,13 +26,22 @@
   align-items: center;
 }
 .title {
+  width: 100vw;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.polandlover {
+  width: 100vw;
   scroll-snap-align: start;
   min-height: 100vh;
   display:flex;
   justify-content: center;
   align-items: center;
 }
-
 .about {
   scroll-snap-align: start;
   min-height: 100vh;
