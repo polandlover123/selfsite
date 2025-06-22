@@ -1,13 +1,25 @@
 <div class="container">
   <div class="title">
-    <h1 class="hellotitle"><i>hello!</i></h1>
+    <img alt="polandlover.tech" src="/poland.png">
   </div>
-  <div class="polandlover">
-    <h1 class="selftitle">
-      I am polandlover123
-    </h1>
-  </div>
-  <div class="about">
-    <h1 class="yaptitle">i like nix/nixos and cybersecurity. i also like web development and linux.</h1>
+  <div class="buttons">
+    <div class="github">
+      <a href="https://github.com/polandlover123">
+        <img src="/github.png" on:mouseover={(e) => e.target.src = '/github_hover.png'} on:mouseout={(e) => e.target.src = '/github.png'} on:click={() => window.location.href = '/'}>
+
+      </a>
+      <script>
+        let currentSrc = '/github.png';
+      
+        function handleMouseOver(e) {
+          currentSrc = '/github_hover.png';
+        }
+        function handleMouseOut(e) {
+          currentSrc = '/github.png';
+        }
+      </script>
+    </div>
   </div>
 </div>
+
+

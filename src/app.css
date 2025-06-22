@@ -1,51 +1,10 @@
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-.hellotitle {
-  animation: fadeIn 2s ease-in-out;
-}
-.yaptitle{
-  animation: fadeIn 2s ease-in-out;
-
-}
-:root{
-  min-height: 300vh;
-  width: 100vw;
-  font-family: 'Victor Mono', monospace;
-  font-style: italic;
-  scroll-snap-type: y mandatory;
-  text-align: center;
-  color: #dde1e6;
-  background-color: #111111;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.title {
-  width: 100vw;
-  scroll-snap-align: start;
-  min-height: 100vh;
+.buttons {
   display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  justify-content:center;
+  align-items:center;
 }
-.polandlover {
-  width: 100vw;
-  scroll-snap-align: start;
-  min-height: 100vh;
+.github {
   display:flex;
-  justify-content: center;
-  align-items: center;
-}
-.about {
-  scroll-snap-align: start;
-  min-height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items:flex-end;
 }

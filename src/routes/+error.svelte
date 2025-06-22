@@ -1,8 +1,17 @@
 <div class="errorcontainer">
-  <h1>whoopsies, you shouldn't be here</h1>
-  <a href="/">go back</a>
+  <img src="/404.png" on:mouseover={(e) => e.target.src = '/404_hover.png'} on:mouseout={(e) => e.target.src = '/404.png'} on:click={() => window.location.href = '/'}>
 </div>
 
+<script>
+  let currentSrc = '/404.png';
+
+  function handleMouseOver(e) {
+    currentSrc = '/404_hover.png';
+  }
+  function handleMouseOut(e) {
+    currentSrc = '/404.png';
+  }
+</script>
 <style>
   :root {
     display: flex;
@@ -11,10 +20,10 @@
     min-height:100vh
   }
   h1 {
-    color: #dde1e6;
+    color: #151515;
   }
   a {
-    color: #dde1e6;
+    color: #151515;
     font-size: 1rem;
     padding: 0.5rem 1rem;
   }
